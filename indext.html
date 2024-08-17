@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Guide</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat&family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Gupter:wght@400;500;700&family=Matemasie&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playwrite+AR:wght@100..400&family=Playwrite+AT:ital,wght@0,100..400;1,100..400&family=Playwrite+BE+VLG:wght@100..400&family=Playwrite+IT+Moderna:wght@100..400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#"><h3  style="color: orange;">Travel</h3></a><span >Guide</span>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Packages
+                        </a>
+                        <ul class="dropdown-menu" style="background-color: gray;">
+                          <li><a class="dropdown-item" href="#">Action</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                      </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Tranport</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Hotels</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Blogs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Support</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="hero-section text-center text-white">
+        <div class="hero-content">
+            <h1>Travel far enough, You meet yourself</h1>
+            <a href="#" class="btn btn-success">Enquiry</a>
+        </div>
+    </div>
+
+    <!-- Honeymoon Packages Section -->
+    <section class="packages-section py-5">
+        <div class="container mt-5">
+            <h2 class="text-center mb-5">Honeymoon Packages</h2>
+            <div class="row">
+                <!-- <div class="col-lg-3 col-md-6 mb-4 col-sm-12"> -->
+                    <div class="col-md-3" style="border: 1px solid; border-color: rgb(95, 95, 95); padding: 3% 3% 3% 3%;">
+                        <img height="200px"  src="https://musafirgoindia.com/assets/image/kerala/5.png" class="card-img-top" alt="Kerala Honeymoon Packages">
+                        <div class="card-body">
+                            <h5 class="card-title">Kerala Honeymoon Packages</h5>
+                            <p class="card-text">(04 Nights / 05 Days) <br> A honeymoon to Kerala reaffirms your belief...</p>
+                            <a href="#" class="btn btn-primary" style="margin-left: 60px;">Book Now</a>
+                        </div>
+                    </div>
+                <!-- </div>
+                <div class="col-lg-3  col-md-6 mb-4 col-sm-12"> -->
+                    <div class="col-md-3" style="border: 1px solid; border-color: rgb(95, 95, 95); padding: 3% 3% 3% 3%;">
+                        <img height="200px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxxwL6s3KxxWXPhRAcmqL_74QR9i3BDVQwXg&s" class="card-img-top" alt="MaldivesHoneymoon Packages">
+                        <div class="card-body">
+                            <h5 class="card-title">Malvides Honeymoon Packages</h5>
+                            <p class="card-text">(04 Nights / 05 Days) <br> A honeymoon to Maldives reaffirms your belief...</p>
+                            <a href="#" class="btn btn-primary" style="margin-left: 60px;">Book Now</a>
+                        </div>
+                    </div>
+                   <!-- </div>
+                   <div class="col-lg-3  col-md-6 mb-4 col-sm-12" > -->
+                    <div class="col-md-3" style="border: 1px solid; border-color: rgb(95, 95, 95); padding: 3% 3% 3% 3%;">
+                        <img height="200px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQn5LnkAjMzBC16whApBMaCVzUq6YwlC3-mdw&s" class="card-img-top" alt="Manali Honeymoon Packages">
+                        <div class="card-body">
+                            <h5 class="card-title">Manali Honeymoon Packages</h5>
+                            <p class="card-text">(04 Nights / 05 Days) <br> A honeymoon to Manali reaffirms your belief...</p>
+                            <a href="#" class="btn btn-primary" style="margin-left: 60px;">Book Now</a>
+                        </div>
+                    </div>
+                   <!-- </div>
+                   <div class="col-lg-3  col-md-6 mb-4 col-sm-12"> -->
+                    <div class="col-md-3" style="border: 1px solid; border-color: rgb(95, 95, 95); padding: 3% 3% 3% 3%;">
+                        <img height="220px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRy6RxWLq1_dMG-Akuz4fBinTwxlq45cvPHHw&s" class="card-img-top" alt="Goa Honeymoon Packages">
+                        <div class="card-body">
+                            <h5 class="card-title">GoaHoneymoon Packages</h5>
+                            <p class="card-text">(04 Nights / 05 Days) <br> A honeymoon to Goa reaffirms your belief...</p>
+                            <a href="#" class="btn btn-primary" style="margin-left: 60px;">Book Now</a>
+                        </div>
+                    </div>
+                   </div>
+                <div class="text-center">
+                    <a href="#" class="btn btn-primary mt-3">More Packages</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Special Kerala Festival Tours Section -->
+    <section class="kerala-tours-section py-5">
+        <div class="container text-center" style="background-color: #f1f1f1;">
+            <h2 #id="Special" style="padding-top: 20px;">Special Kerala Festival Tours</h2>
+            <div class="mt-4">
+                <div class="overlay">
+                    <a href="#" class="btn btn-success mt-2 w-75">More Details</a>
+                </div>
+            </div>
+            <div id="carouselExample" class="carousel slide">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="https://www.theleela.com/prod/content/assets/styles/tl_1920_735/public/aio-banner/dekstop/Kerala-boat-races.jpg.webp?VersionId=CbXDWre0LdWTJi5SiW7K_7D7ZiFXhjUw&itok=1J26zMce" class=" w-100" alt="..." id="pr">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h1 class="text">BOAT RACE</h1>
+                            <a href="#" class="btn btn-success mt-2 w-25">More Details</a>
+                        <p class="text-light">Some representative placeholder content for the first slide.</p>
+                      </div>
+                </div>
+                  <div class="carousel-item">
+                    <img height="500px" src="https://media.gettyimages.com/id/1158008965/photo/thrissur-pooram-festival.jpg?s=1024x1024&w=gi&k=20&c=6-mQK15mWXSxAd2QhPKd6Yi7BmzAqapZ2rcRtKF8km0=" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block ps-1 pe-1">
+                        <h1 class="text">THRISSUR POORAM</h1>
+                        <a href="#" class="btn btn-success mt-2 w-25">More Details</a>
+                        <p class="text-light">Some representative placeholder content for the first slide.</p>
+                      </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img height="500px" src="https://media.gettyimages.com/id/1755843600/photo/south-indian-women-in-white-saree-decorating-floor-with-flowers-together-to-celebrate-onam.jpg?s=1024x1024&w=gi&k=20&c=SmULMySmHs5rzBNSxdPo9YSYU0zRhI-VJFspDORS74o=" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h1 class="text">ONAM</h1>
+                        <a href="#" class="btn btn-success mt-2 w-25">More Details</a>
+                        <p class="text-light">Some representative placeholder content for the first slide.</p>
+                      </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            <div class="row mt-4 ms-5 pb-3">
+                <div class="video">
+                    <iframe width="580" height="300" src="https://www.youtube.com/embed/ItF69OVkyqI" title="mohiniyatam padam [panimathi mukhi bale]  bijusha prashobh" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                  </div>
+                  <div class="row1">
+                    <div class="col1">
+                      <img class="img1" src="https://media.istockphoto.com/id/1051574672/photo/kathakali-artist-looks-puzzled.jpg?s=2048x2048&w=is&k=20&c=oUT-wHiifth3le7VQIHv05Z-pnkPH190610O7SHG3q0=" alt="">
+                      <img class="img2" src="https://c8.alamy.com/comp/F34APW/theyyam-ritual-performed-in-the-area-of-kannur-kerala-india-F34APW.jpg" alt="">
+                      <img class="img8" src="https://www.keralatourism.org/images/artforms/large/kalaripayattu20131111114353_27_1.jpg" alt="">
+                    </div>
+                  <div class="col2">
+                    <img class="img3" src="https://www.keralatourism.org/uploads/msimages/medium-desktop/pookalam-20220829153356779882.jpg" alt="">
+                    <img class="img4" src="https://media.istockphoto.com/id/459029891/photo/theyyam-performer-with-ceremonial-make-up-costume-headdress-kerala-india.jpg?s=612x612&w=0&k=20&c=PVI_MX3BNI8SY5Octq2n5qf1VbtvXKMBDS_w98Goh5o=" alt="">
+                  </div>
+                  <div class="col3">
+                    <img class="img5" src="data:image/jpeg;base64,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" alt="">
+                    <img class="img6" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEJrfJ5NoQx1TRmpIxD4ExrN_aid0-3ooK6w&s" alt="">
+                    <img class="img7" src="https://t3.ftcdn.net/jpg/01/25/91/36/360_F_125913654_aGl8BnglbKyJ1L6lOkAgVhBp7BliL9vm.jpg" alt="">
+                  </div>
+                </div>
+                </div>
+        </div>
+    </section>
+
+    <!-- North Indian Tours Section -->
+    <section class="north-indian-tours-section py-5">
+        <div class="container text-center">
+            <h2>North Indian Tours</h2>
+            <div class="row ">
+                <div class="col-md-3 me-3" id="jj" style="border: 1px solid; border-color: rgb(95, 95, 95); padding:1% 1% 1% 1%; border-radius: 10px; width:310px;">
+                    <img  src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Ahilya_Ghat_by_the_Ganges%2C_Varanasi.jpg/1200px-Ahilya_Ghat_by_the_Ganges%2C_Varanasi.jpg" class="img-fluid" alt="North India Tour 1">
+                </div>
+                <div class="col-md-3 me-3" style="border: 1px solid; border-color: rgb(95, 95, 95); padding:1% 1% 1% 1%; border-radius: 10px;width:310px;">
+                    <img  src="https://www.ekashmirtourism.com/wp-content/uploads/2022/12/dal-lake-kashmir-in-winter.jpg" class="img-fluid" alt="North India Tour 2">
+                </div>
+                <div class="col-md-3 me-3" style="border: 1px solid; border-color: rgb(95, 95, 95); padding:1% 1% 1% 1%; border-radius: 10px;width:310;">
+                    <img src="https://img.staticmb.com/mbcontent/images/uploads/2022/9/golden-temple_1663763909577.jpg" class="img-fluid" alt="North India Tour 3">
+                </div>
+                <div class="col-md-3 " style="border: 1px solid; border-color: rgb(95, 95, 95); padding:1% 1% 1% 1%; border-radius: 10px;width:310px;">
+                    <img  src="https://blog.thomascook.in/wp-content/uploads/2016/12/rajasthan.jpg" class="img-fluid" alt="North India Tour 4">
+            </div>
+            </div>
+        </div>
+    </section> 
+
+    <!-- Premium Features Section -->
+<section>
+        <div data-aos="fade-up" data-aos-anchor-placement="top-bottom" style="border-top: 1px solid;border-top-color: gainsboro;"></div>
+            <div class="container text-center">
+                <h2>Our Premium Features</h2>
+                <p id="pre">we will make your dreams come true</p>
+    <div class="containerd">
+        <div id="ka"></div>
+        <div class="item">
+    <img class="group1" src="https://png.pngtree.com/png-vector/20240108/ourmid/pngtree-flat-valentine-s-day-wallpaper-with-couple-on-bike-png-image_11396343.png" alt="">
+    <a href=""></a><p id="uf" style="margin-bottom:0px; text-align: center;">FREE BIKE RIDE<br><br></p></a>
+        <p id="pb" style="color: rgba(201, 120, 255, 0.79); text-align: center; padding-top: 0px;">Learn More</p>
+    </div>
+    <div class="item">
+        <img class="group1" src="./images/download.png" alt="">
+        <a href=""></a><p id="uf" style="margin-bottom:0px; text-align: center;">CAMP FIRE<br><br></p></a>
+            <p id="pb" style="color: rgba(201, 120, 255, 0.79); text-align: center; padding-top: 0px;">Learn More</p>
+        </div>
+        <div class="item">
+            <img class="group1" src="./images/pp.png" alt="">
+            <a href=""></a><p id="uf" style="margin-bottom:0px; text-align: center;">24x7 SUPPORT<br><br></p></a>
+                <p id="pb" style="color: rgba(201, 120, 255, 0.79); text-align: center; padding-top: 0px;">Learn More</p>
+            </div>
+            <div class="item">
+                <img class="group1" src="./images/flat-people-taking-photos-monkey.png" alt="">
+                <a href=""></a><p id="uf" style="margin-bottom:0px; text-align: center;">TOUR GUIDE<br><br></p></a>
+                    <p id="pb" style="color: rgba(201, 120, 255, 0.79); text-align: center; padding-top: 0px;">Learn More</p>
+                </div>
+    
+</div>
+    </section>
+    <!-- Testimonials Section -->
+    <section class="testimonials-section py-5 bg-light">
+        <span class="material-symbols-outlined" style="margin-left: 700px;">
+            mail
+            </span>
+        <div class="container text-center">
+            <h2 id="cus">Our customers love</h2>
+            <div class="row" style="margin-top: 10px;">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img width="100%"  src="./images/gg.jpg" class="card-img-top" alt="Customer 1" >
+                        <div class="card-body">
+                            <div id="star" style="color: green;">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                              </svg>
+                              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                              </svg>
+                              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                              </svg>
+                              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                              </svg>
+                              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-half" viewBox="0 0 16 16">
+                                <path d="M5.354 5.119 7.538.792A.52.52 0 0 1 8 .5c.183 0 .366.097.465.292l2.184 4.327 4.898.696A.54.54 0 0 1 16 6.32a.55.55 0 0 1-.17.445l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256a.5.5 0 0 1-.146.05c-.342.06-.668-.254-.6-.642l.83-4.73L.173 6.765a.55.55 0 0 1-.172-.403.6.6 0 0 1 .085-.302.51.51 0 0 1 .37-.245zM8 12.027a.5.5 0 0 1 .232.056l3.686 1.894-.694-3.957a.56.56 0 0 1 .162-.505l2.907-2.77-4.052-.576a.53.53 0 0 1-.393-.288L8.001 2.223 8 2.226z"/>
+                              </svg>
+                            </div>
+                            <p>"We created lots of wonderful memories and trip was nice."</p>
+                            <h5>    Rohith & Amrutha</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img width="100%" src="./images/222.jpg" class="card-img-top" alt="Customer 1" >
+                        <div class="card-body">
+                            <div id="star" style="color: green;">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                  </svg>
+                                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                  </svg>
+                                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                  </svg>
+                                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                  </svg>
+                                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-half" viewBox="0 0 16 16">
+                                    <path d="M5.354 5.119 7.538.792A.52.52 0 0 1 8 .5c.183 0 .366.097.465.292l2.184 4.327 4.898.696A.54.54 0 0 1 16 6.32a.55.55 0 0 1-.17.445l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256a.5.5 0 0 1-.146.05c-.342.06-.668-.254-.6-.642l.83-4.73L.173 6.765a.55.55 0 0 1-.172-.403.6.6 0 0 1 .085-.302.51.51 0 0 1 .37-.245zM8 12.027a.5.5 0 0 1 .232.056l3.686 1.894-.694-3.957a.56.56 0 0 1 .162-.505l2.907-2.77-4.052-.576a.53.53 0 0 1-.393-.288L8.001 2.223 8 2.226z"/>
+                                  </svg>
+                                </div>
+                            <p>"Travel guide have great coordination. Atruely satisfying experience."</p>
+                            <h5>Michael & Jenny</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img width="100%" src="./images/oooo.jpg" class="card-img-top" alt="Customer 1" >
+                        <div class="card-body">
+                            <div id="star" style="color: green;">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                  </svg>
+                                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                  </svg>
+                                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                  </svg>
+                                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                  </svg>
+                                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-half" viewBox="0 0 16 16">
+                                    <path d="M5.354 5.119 7.538.792A.52.52 0 0 1 8 .5c.183 0 .366.097.465.292l2.184 4.327 4.898.696A.54.54 0 0 1 16 6.32a.55.55 0 0 1-.17.445l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256a.5.5 0 0 1-.146.05c-.342.06-.668-.254-.6-.642l.83-4.73L.173 6.765a.55.55 0 0 1-.172-.403.6.6 0 0 1 .085-.302.51.51 0 0 1 .37-.245zM8 12.027a.5.5 0 0 1 .232.056l3.686 1.894-.694-3.957a.56.56 0 0 1 .162-.505l2.907-2.77-4.052-.576a.53.53 0 0 1-.393-.288L8.001 2.223 8 2.226z"/>
+                                  </svg>
+                                </div>
+                            <p>"They have really good packages at reasonable rates."</p>
+                            <h5>James & Anna</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer bg-dark text-white py-4">
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-md-4">
+                    <h5>About Us</h5>
+                    <ul class="list-unstyled" style="text-align: center;">
+                        <li><a href="#" class="text-white">Our Company</a></li>
+                        <li><a href="#" class="text-white">Our Management</a></li>
+                        <li><a href="#" class="text-white">Connections</a></li>
+                        <li><a href="#" class="text-white">Annual reports </a></li>
+                        <li><a href="#" class="text-white">Our Network</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h5>Social Media</h5>
+                    <div class="iconz" style="display: flex; justify-content: space-evenly">
+                    <a href="#"><i class="fa-brands fa-facebook fa-2x"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram fa-2x"></i></a>
+                    <a href="#"><i class="fa-brands fa-x-twitter fa-2x"></i></a>
+                    <a href="#"><i class="fa-brands fa-whatsapp fa-2x"></i></a>
+                </div>
+                </div>
+                <div class="col-md-4">
+                    <h5>Explore the World</h5>
+                    <img width="200px"height="150px"  src="./images/tt-removebg-preview.png" alt="Explore">
+                </div>
+            </div>
+            <p class="mt-5">© Travel Guide 2022 | Developed by Developer</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+</body>
+
+</html>
